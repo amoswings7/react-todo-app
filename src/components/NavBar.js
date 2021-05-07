@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/amoswings7_logo.jpg'
+import logo from '../images/Amos Wings logo blank.png'
 
 const NavBar = () => {
     return ( 

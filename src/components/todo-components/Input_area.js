@@ -17,6 +17,7 @@ const Input_area = ({todos,setTodos}) => {
     function inputBtn(e){
         setText(e.target.value);
     }
+
     function addBtn(){
         if(text.length !==0){
             setTodos([{text:text,id:count()+1,state:false},...todos]);
@@ -24,6 +25,11 @@ const Input_area = ({todos,setTodos}) => {
         }
     }
 
+    function onEnter(e){
+        if(e.keyCode ===13){
+            addBtn()
+        }
+    }
     useEffect(()=>{
         if(todos.length !==0){
             localStorage.setItem('data',JSON.stringify(todos))
@@ -32,7 +38,7 @@ const Input_area = ({todos,setTodos}) => {
 
     return (
         <div className='input-area'>
-            <input value={text} onChange={inputBtn} type='text' className='input'/>
+            <input value={text} onChange={inputBtn} onKeyUp={onEnter} type='text' className='input'/>
             <button onClick={addBtn} className='add-btn'><i className="fas fa-plus-circle fa-2x"></i></button>
         </div>
      );
