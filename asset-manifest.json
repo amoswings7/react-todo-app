@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-todo-app/static/css/main.a63e74d4.chunk.css",
-    "main.js": "/react-todo-app/static/js/main.55442abd.chunk.js",
-    "main.js.map": "/react-todo-app/static/js/main.55442abd.chunk.js.map",
+    "main.css": "/react-todo-app/static/css/main.d563c4f8.chunk.css",
+    "main.js": "/react-todo-app/static/js/main.6a88c586.chunk.js",
+    "main.js.map": "/react-todo-app/static/js/main.6a88c586.chunk.js.map",
     "runtime-main.js": "/react-todo-app/static/js/runtime-main.eeb5a74c.js",
     "runtime-main.js.map": "/react-todo-app/static/js/runtime-main.eeb5a74c.js.map",
     "static/js/2.f3e47c53.chunk.js": "/react-todo-app/static/js/2.f3e47c53.chunk.js",
     "static/js/2.f3e47c53.chunk.js.map": "/react-todo-app/static/js/2.f3e47c53.chunk.js.map",
     "index.html": "/react-todo-app/index.html",
-    "static/css/main.a63e74d4.chunk.css.map": "/react-todo-app/static/css/main.a63e74d4.chunk.css.map",
+    "static/css/main.d563c4f8.chunk.css.map": "/react-todo-app/static/css/main.d563c4f8.chunk.css.map",
     "static/js/2.f3e47c53.chunk.js.LICENSE.txt": "/react-todo-app/static/js/2.f3e47c53.chunk.js.LICENSE.txt",
-    "static/media/amoswings7_logo.94d93330.jpg": "/react-todo-app/static/media/amoswings7_logo.94d93330.jpg"
+    "static/media/Amos Wings logo blank.050b2c51.png": "/react-todo-app/static/media/Amos Wings logo blank.050b2c51.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eeb5a74c.js",
     "static/js/2.f3e47c53.chunk.js",
-    "static/css/main.a63e74d4.chunk.css",
-    "static/js/main.55442abd.chunk.js"
+    "static/css/main.d563c4f8.chunk.css",
+    "static/js/main.6a88c586.chunk.js"
   ]
 }
